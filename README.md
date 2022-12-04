@@ -68,3 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+####################################################################################################################################################
+
+This is my first project in react, wanted to keep it simple, but by deciding to use local storage, I made it harder for myself,
+not really knowing how to do that. It's not exactly how I wanted it to be, I'm sure it can be improved, I would appreciate any
+advice, suggestions. Thanks!
