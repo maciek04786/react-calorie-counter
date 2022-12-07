@@ -71,7 +71,7 @@ export default function ItemForm() {
             setName(editedMeal.name)
             setCalories(editedMeal.caloriesAmount)
         }
-    }, [editMode])
+    }, [editMode, getItem, id])
 
     return (
         <Form onSubmit={addClick}>
