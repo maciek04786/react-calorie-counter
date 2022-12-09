@@ -31,7 +31,7 @@ export default function ItemForm() {
         <Card border="success">
             <Card.Body>
                 <Card.Title>Add Meal/Food Item</Card.Title>
-                <Form onSubmit={addClick}>
+                <form onSubmit={addClick}>
                     <Row>
                         <Col>
                             <Form.Group className='mb-3'>
@@ -60,7 +60,7 @@ export default function ItemForm() {
                         </Col>
                     </Row>
                     <Button variant="success" type="submit">ADD MEAL</Button>
-                </Form>
+                </form>
             </Card.Body>
         </Card>
     )
