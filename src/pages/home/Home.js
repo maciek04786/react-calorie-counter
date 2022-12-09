@@ -5,7 +5,7 @@ import { useLocalStorage } from '../../hooks/useLocalStorage'
 import "./Home.css"
 
 // bootstrap
-import { Container, Card } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 
 // components
 import ItemForm from './ItemForm'
@@ -27,15 +27,11 @@ export default function Home() {
     return (
         <div>
             <Container>
-                <Card border="success">
-                    <Card.Body>
-                        <ItemForm />
-                    </Card.Body>
-                </Card>
+                <ItemForm />
                 <h2 className='total-calories'>Total calories: {totalCalories}</h2>
             </Container>
             <Container>
-                {data && <MealList meals={data} />}
+                {data && <MealList />}
             </Container>
         </div>
     )

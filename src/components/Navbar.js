@@ -1,5 +1,4 @@
 import React from 'react'
-import { Navbar, Container } from 'react-bootstrap'
 
 // styles
 import "./Navbar.css"
@@ -7,10 +6,8 @@ import "./Navbar.css"
 export default function NavbarComponent() {
 
   return (
-    <Navbar bg="success">
-      <Container>
-        <h2>Calorie Counter</h2>
-      </Container>
-    </Navbar>
+    <div className="nav">
+      <h2 className="title">Calorie Counter</h2>
+    </div>
   )
 }

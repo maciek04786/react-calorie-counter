@@ -24,13 +24,13 @@ export const useLocalStorage = () => {
 
     // fetch single item
     const getItem = id => {
-        let found
+        let wantedItem
         data.forEach(item => {
             if (item.id === id) {
-                found = item
+                wantedItem = item
             }
         })
-        return found
+        return wantedItem
     }
         
     // edit single item
@@ -59,6 +59,7 @@ export const useLocalStorage = () => {
 
     // delete all
     const clearData = () => {
+        setData([])
         localStorage.setItem("meals", JSON.stringify([]))
     }
   
